@@ -1,0 +1,10 @@
+{
+  "id": "did:web:discover.flooo.club",
+  "service": [
+    {
+      "id": "#bsky_fg",
+      "type": "BskyFeedGenerator",
+      "serviceEndpoint": "https://discover.flooo.club"
+    }
+  ]
+}
