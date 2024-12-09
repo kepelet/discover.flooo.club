@@ -29,7 +29,7 @@ so the flow is something like this:
 
 ```mermaid
   sequenceDiagram
-  Users ->> PDS: /xrpc/app.bsky.feed.getFeedGenerator?feeds=$feed1&feeds=feed2
+  Users ->> PDS: /xrpc/app.bsky.feed.getFeedGenerators?feeds=$feed1&feeds=feed2
   PDS ->> Users: List of Feeds
   Users ->> PDS: /xrpc/app.bsky.feed.getFeed?feed=$feed1
   PDS ->> AppView: /xrpc/app.bsky.feed.getFeed?feed=$feed1
